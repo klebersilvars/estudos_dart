@@ -16,8 +16,12 @@ main() {
   double b = 2.5;
   String nome = 'Kleber';
   bool verdadeiro = true;
+  bool falso = false;
   num n4 = 4;
   dynamic texto = "É um texto";
+  dynamic numeroInteiro = 1;
+  dynamic eDouble = 2.3;
+  dynamic eBool = false;
   print(texto);
   print(texto.runtimeType);
   texto = 123;
